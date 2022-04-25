@@ -15,5 +15,16 @@ public class lastFirstDigit {
         }
         System.out.println("First digit is " + digit);
         System.out.println("Final sum of all digits is " + sum);
+
+
+//        Sum of digits using for loop
+
+        n = 5678;
+        sum = 0;
+        for (; n > 0; n = n / 10) {
+            sum = sum + n % 10;
+        }
+
+        System.out.println("Final sum using for loop " + sum);
     }
 }
