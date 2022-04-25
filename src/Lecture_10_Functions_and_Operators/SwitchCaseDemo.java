@@ -20,10 +20,18 @@ public class SwitchCaseDemo {
             case 5:
                 System.out.println("Friday");
                 break;
-            case 6:
-                System.out.println("Saturday");
-                break;
+//            case 6:
+//                System.out.println("Saturday");
+//                break;
+//            case 7:
+//                System.out.println("It's a week end");
+//                break;
+//            or
 
+            case 6:
+            case 7:
+                System.out.println("Weekend");
+                break;
             default:
                 System.out.println("Enter a valid day");
         }
