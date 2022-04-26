@@ -16,6 +16,7 @@ public class passByValueObject {
 //        Object
         int money[] = {10, 20, 30};
         pesaDouble(money);
+
         System.out.println(money); //This will give address
         System.out.println("Money is  " + Arrays.toString(money)); //This will give address
     }
