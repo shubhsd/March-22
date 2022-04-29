@@ -20,9 +20,18 @@ public class GCDusingEuclidAlgo {
         Scanner scn = new Scanner(System.in);
         int N = scn.nextInt();
         int ans = scn.nextInt();
-        for(int i = 1; i<=N-1; i++) {
+        for (int i = 1; i <= N - 1; i++) {
             int next_no = scn.nextInt();
+            if (next_no == 0) {
+                continue;
+            }
+            if (next_no < 0) {
+                next_no = next_no * -1;
+            }
             ans = gcd(ans, next_no);
+            if (ans == 1) {
+                break;
+            }
         }
         System.out.println(ans);
     }
@@ -35,8 +44,12 @@ public class GCDusingEuclidAlgo {
         for (int i = 1; i <= T; i++) {
             int A = scn.nextInt();
             int B = scn.nextInt();
+            int ans = gcd(A, B);
             System.out.println(gcd(A, B));
+
             gcdNnumbers();
+            int lcm = (A * B) / ans;
+            System.out.println(lcm);
         }
     }
 }
