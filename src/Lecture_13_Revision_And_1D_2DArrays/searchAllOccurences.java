@@ -28,10 +28,29 @@ public class searchAllOccurences {
         return output;
     }
 
+    public static int[] searchAll2(int[] arr, int element) {
+        int n = arr.length;
+        int[] output = new int[n + 1];
+        int j = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == element) {
+                output[j] = i;
+                j++;
+            }
+        }
+        output[j] = -1;
+        return output;
+    }
+
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 50, 30, 60, 30};
         int element = 30;
-        int[] output = searchAll(arr, element);
-        System.out.println(Arrays.toString(output));
+//        int[] output = searchAll(arr, element);
+//        System.out.println("Method 1" + Arrays.toString(output));
+
+        int[] output = searchAll2(arr, element);
+        for (int i = 0; output[i] != -1; i++) {
+            System.out.print("Method 2 " + output[i] + " ");
+        }
     }
 }
