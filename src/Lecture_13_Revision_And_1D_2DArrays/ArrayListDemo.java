@@ -6,6 +6,7 @@ public class ArrayListDemo {
 
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>(5);
+//        ArrayList<int>arr = new ArrayList<int>() //This will give error as int is not identified by arraylist
 //        ArrayList with initial size 5  - we can ignore assigning this initial capacity as well.
 //        Operation -----
 //        add, get, remove, ....
