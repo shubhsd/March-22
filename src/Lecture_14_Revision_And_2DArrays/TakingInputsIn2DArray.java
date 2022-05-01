@@ -17,8 +17,8 @@ public class TakingInputsIn2DArray {
         Scanner scn = new Scanner(System.in);
         int rows = scn.nextInt();
         int cols = scn.nextInt();
-//        create 2D array
-        int[][] arr = new int[rows][cols];
+//        create 2D array - Method - 2 to take input
+        int[][] arr = new int[rows][cols]; // Defining rows and columns to be const -
 //        By default it will contain all zeroes
 
 //        Taking value input
