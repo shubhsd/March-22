@@ -1,9 +1,9 @@
-package Lecture_16_Revision_And_OOPS;
+package Lecture_16_A_Revision_And_OOPS;
 //    Main method is not required here since we are defining a dog.
 
 public class Dog {
     //    Data members
-    int age;
+    private int age;
     String name;
     String breed;
 
@@ -11,6 +11,7 @@ public class Dog {
 //    Calls automatically when we create object of this class
 
     Dog() {
+        age = 1; //Now there will be no dog with age zero
         System.out.println("Making a dog objects");
     }
 
@@ -37,5 +38,17 @@ public class Dog {
         } else {
             System.out.println("Whop Whop !!!");
         }
+    }
+
+    void setAge(int dogAge) {
+        if(dogAge > 0) {
+            age = dogAge;
+        } else {
+            age = 1;
+        }
+    }
+
+    int getAge() {
+        return age;
     }
 }
