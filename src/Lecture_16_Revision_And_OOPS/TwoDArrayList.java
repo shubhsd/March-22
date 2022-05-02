@@ -18,7 +18,7 @@ public class TwoDArrayList {
         arr1D1.add(7);
         arr1D1.add(8);
         arr1D1.add(9); //growing as per the requirement
-        System.out.println("1D1 array : " + arr1D1);
+        System.out.println("1D1 array : " + arr1D1); //Prints array list instead of address - default behaviour
 
 //    2D arraylist
         ArrayList<ArrayList<Integer>> arr2D = new ArrayList<>();
@@ -30,7 +30,10 @@ public class TwoDArrayList {
         arr2D.add(row0);
         arr2D.add(row1);
         arr2D.add(row2);
-
+        arr2D.get(0).add(2, 5); //adding item in any row at particular index
+        arr2D.get(0).add(100);
+        arr2D.add(1, row2);
+        System.out.println("2D array : " + arr2D);
 //        Iterating over rows
         for (int i = 0; i < arr2D.size(); i++) {
             System.out.println(arr2D.get(i));
