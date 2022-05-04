@@ -38,6 +38,8 @@ public class Game {
                 break;
             }
 
+
+
             expectedGuess = (int) (10 * Math.random());
         }
     }
