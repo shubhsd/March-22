@@ -37,6 +37,8 @@ public class Game {
             if (gameOver) {
                 break;
             }
+
+
             expectedGuess = (int) (10 * Math.random());
         }
     }
