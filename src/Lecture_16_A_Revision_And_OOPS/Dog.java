@@ -13,6 +13,7 @@ public class Dog {
     Dog() {
         age = 1; //Now there will be no dog with age zero
         System.out.println("Making a dog objects");
+        
     }
 
 //    Parameterised constructor
