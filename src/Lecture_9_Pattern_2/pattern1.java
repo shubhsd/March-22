@@ -11,6 +11,7 @@ public class pattern1 {
         int n = 5;
 //    Print n rows
         for (int i = 0; i < n; i++) {
+            
 //            Print n-i spaces
             for(int spaces = 0; spaces <= n - i; spaces++ ) {
                 System.out.print(" \t");
