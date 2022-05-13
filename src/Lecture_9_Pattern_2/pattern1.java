@@ -6,6 +6,7 @@ package Lecture_9_Pattern_2;
 //-*****
 //*******
 
+
 public class pattern1 {
     public static void main(String[] args) {
         int n = 5;
