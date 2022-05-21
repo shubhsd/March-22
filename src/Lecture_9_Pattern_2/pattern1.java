@@ -21,6 +21,7 @@ public class pattern1 {
             for(int stars = 0; stars < 2*i - 1; stars++ ) {
                 System.out.print("*\t");
                 
+                
             }
 //            New line
             System.out.println();
