@@ -16,7 +16,6 @@ public class pattern1 {
 //            Print n-i spaces
             for(int spaces = 0; spaces <= n - i; spaces++ ) {
                 System.out.print(" \t");
-                
             }
 //            Print 2i - i stars
             for(int stars = 0; stars < 2*i - 1; stars++ ) {
