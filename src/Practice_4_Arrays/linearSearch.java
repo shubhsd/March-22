@@ -1,4 +1,4 @@
-package Practice_1_Arrays;
+package Practice_4_Arrays;
 
 public class linearSearch {
 

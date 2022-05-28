@@ -1,4 +1,4 @@
-package Practice_1_Arrays;
+package Practice_4_Arrays;
 
 import java.util.Scanner;
 
@@ -6,8 +6,8 @@ public class arrayInput {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
-        // Allocating array
 
+        // Allocating array
         int[] arr = new int[n];
 
         // Print array - By default 0 will be printed
@@ -26,7 +26,7 @@ public class arrayInput {
 
         System.out.println("Entered elements of array are :  ");
         for (int i = 0; i < arr.length; i++) {
-           System.out.println(arr[i]);
+            System.out.println(arr[i]);
         }
     }
 }
