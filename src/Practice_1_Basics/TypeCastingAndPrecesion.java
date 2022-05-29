@@ -16,8 +16,5 @@ public class TypeCastingAndPrecesion {
         // Method 2 
         System.out.println();
         System.out.println(String.format("%.3f", n));
-
-
-
     }
 }
