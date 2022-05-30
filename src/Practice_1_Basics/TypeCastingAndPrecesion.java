@@ -14,6 +14,7 @@ public class TypeCastingAndPrecesion {
         System.out.printf("%.2f", (double)sum/5);
 
         // Method 2 
+        
         System.out.println();
         System.out.println(String.format("%.3f", n));
     }
