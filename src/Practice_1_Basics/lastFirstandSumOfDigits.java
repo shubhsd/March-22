@@ -10,7 +10,6 @@ public class lastFirstandSumOfDigits {
         int n = 2356;
         System.out.println("Last digit : " + n % 10);
         int sum = 0;
-
         int digit = 0;
 
         while (n > 0) {
