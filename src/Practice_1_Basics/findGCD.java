@@ -6,30 +6,38 @@ package Practice_1_Basics;
 
 public class findGCD {
     public static void main(String[] args) {
-        int a = 12;
-        int b = 20;
+        int a = 961748927;
+        int b = 756065179;
 
         // int gcd = 1;
 
         // for(int i = 1; i<=Math.min(a, b); i++) {
-        //     if(a%i == 0 && b%i==0) {
-        //         gcd = i;
-        //     }
+        // if(a%i == 0 && b%i==0) {
+        // gcd = i;
+        // }
         // }
         // System.out.println(gcd);
-        int min = 1;
-        if(a<b) {
+        int min = 0;
+        if (a < b) {
             min = a;
-        }else {
+        } else {
             min = b;
         }
 
-        int gcd = 1;
-        for(int i = 1; i<=min; i++) {
-            if(a%i == 0 && b%i== 0) {
-                gcd = i;
-            }
+        // int gcd = 1;
+        // for(int i = 1; i<=min; i++) {
+        // if(a%i == 0 && b%i== 0) {
+        // gcd = i;
+        // }
+        // }
+        // System.out.println("gcd " + gcd);
+        int r = 0;
+        r = min;
+        while (a % b != 0) {
+            r = a % b;
+            a = b;
+            b = r;
         }
-        System.out.println("gcd " + gcd);
+        System.out.println(r);
     }
 }
