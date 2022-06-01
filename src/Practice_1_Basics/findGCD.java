@@ -31,13 +31,13 @@ public class findGCD {
         // }
         // }
         // System.out.println("gcd " + gcd);
-        int r = 0;
-        r = min;
+        int gcd = 0;
+        gcd = min;
         while (a % b != 0) {
-            r = a % b;
+            gcd = a % b;
             a = b;
-            b = r;
+            b = gcd;
         }
-        System.out.println(r);
+        System.out.println(gcd);
     }
 }
