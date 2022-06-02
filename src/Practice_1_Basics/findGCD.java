@@ -37,6 +37,7 @@ public class findGCD {
             gcd = a % b;
             a = b;
             b = gcd;
+            
         }
         System.out.println(gcd);
     }
