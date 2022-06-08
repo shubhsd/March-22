@@ -1,12 +1,12 @@
-//   *
-//  ***
-// *****
-
 package Practice_3_Patterns;
 
 import java.util.Scanner;
 
 public class patternWithSpaces1 {
+
+//   *
+//  ***
+// *****
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 
