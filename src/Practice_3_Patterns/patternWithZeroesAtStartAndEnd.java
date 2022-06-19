@@ -35,7 +35,6 @@ public class patternWithZeroesAtStartAndEnd {
             for (int spaces = 1; spaces <= n - i; spaces++) {
                 System.out.print("0 ");
             }
-            
             System.out.println();
         }
     }
