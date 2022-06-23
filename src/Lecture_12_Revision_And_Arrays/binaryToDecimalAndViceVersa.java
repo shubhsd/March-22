@@ -25,7 +25,6 @@ public class binaryToDecimalAndViceVersa {
         }
         System.out.println(ans);
     }
-    
 
     public static void main(String[] args) {
 //        System.out.println(binary2Decimal(10101));
