@@ -25,7 +25,9 @@ public class GCDusingEuclidAlgo {
             if (next_no == 0) {
                 continue;
             }
+            
             if (next_no < 0) {
+                
                 next_no = next_no * -1;
             }
             ans = gcd(ans, next_no);
