@@ -24,6 +24,7 @@ public class GCDusingEuclidAlgo {
             int next_no = scn.nextInt();
             if (next_no == 0) {
                 continue;
+                
             }
             
             if (next_no < 0) {
