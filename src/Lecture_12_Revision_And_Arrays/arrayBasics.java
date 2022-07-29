@@ -1,4 +1,4 @@
-package Lecture_12_Revision_And_Arrays;
+
 
 import java.util.Arrays;
 import java.util.Scanner;

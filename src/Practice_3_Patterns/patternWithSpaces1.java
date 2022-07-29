@@ -1,4 +1,4 @@
-package Practice_3_Patterns;
+
 
 import java.util.Scanner;
 

@@ -1,5 +1,6 @@
 package Lecture_12_Revision_And_Arrays;
 
+
 public class binaryToDecimalAndViceVersa {
 
     public static int binary2Decimal(int n) {

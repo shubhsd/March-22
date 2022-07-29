@@ -1,4 +1,3 @@
-package Practice_4_Arrays;
 
 import java.util.Scanner;
 
